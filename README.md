@@ -14,3 +14,6 @@ python recognition.py --method vgg --lr 0.0001 --epochs 10000 --reg 0.005 --batc
 python 3.x  
 tensorflow 1.11.0 cuda9.0  
 numpy cv2 etc.  
+### Data:
+the flowers dataset can be found in https://www.kaggle.com/alxmamaev/flowers-recognition/home  
+the pre-trained ResNet-50 can be found in https://www.kaggle.com/cokastefan/keras-resnet-50/data   
