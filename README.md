@@ -3,8 +3,8 @@ Assignment of AICA
 ### Args:
 lr--learning rate  
 batch_size--training batch size  
-epochs--training epochs
-reg--regularizer rate
+epochs--training epochs  
+reg--regularizer rate  
 method--'vgg','svm','knn','fc','resnet34','resnet50'  
 ### Run:
 eg. to run vgg
