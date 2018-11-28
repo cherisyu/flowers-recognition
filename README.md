@@ -6,6 +6,7 @@ batch_size--training batch size
 epochs--training epochs  
 reg--regularizer rate  
 method--'vgg','svm','knn','fc','resnet34','resnet50'  
+The resnet-34 is trained on original data, Resnet-50 is pre-trained on imagenet.  
 ### Run:
 eg. to run vgg, the step is:  
 cd flowers-recognition  
@@ -25,3 +26,8 @@ There are some dirfferences from original model(VGG,ResNet).
 4.Adding regularizer to prevent overfitting  
 For KNN and SVM,  
 5.Using validation set to select the best k, learning rate and regularizer rate.  
+
+### Paremeter Setting  
+For vgg, epochs 10000 would converage.  
+For ResNet34, always over-fitting.  
+For ResNet50-pre-trained, epochs 20 is enough.  
